@@ -1,0 +1,15 @@
+name: PlayerBingo
+author: CamperJones
+version: 1.0
+main: me.camper.bingo.Bingo
+description: Bingo para o survival
+api-version: 1.13
+
+commands:
+  skybingo:
+   usage: /<command>
+   description: gerar bingo
+permissions:
+  bingo.sky:
+   description: Permite acesso ao bingo
+   default: op    
